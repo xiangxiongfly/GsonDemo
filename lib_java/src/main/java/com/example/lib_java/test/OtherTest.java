@@ -85,13 +85,13 @@ public class OtherTest {
         System.out.println("输出：\n" + result);
         System.out.println("=================================");
 
-        System.out.println("data为错误的JSONArray");
-        String json2 = getJson("./user_array_error.json");
-        System.out.println("json:\n" + json2);
-        BaseResult<ArrayList<User>> result2 = gson.fromJson(json2, new TypeToken<BaseResult<ArrayList<User>>>() {
-        }.getType());
-        System.out.println("输出：\n" + result2);
-        System.out.println("=================================");
+//        System.out.println("data为错误的JSONArray");
+//        String json2 = getJson("./user_array_error.json");
+//        System.out.println("json:\n" + json2);
+//        BaseResult<ArrayList<User>> result2 = gson.fromJson(json2, new TypeToken<BaseResult<ArrayList<User>>>() {
+//        }.getType());
+//        System.out.println("输出：\n" + result2);
+//        System.out.println("=================================");
     }
 
     public static String getJson(String path) {

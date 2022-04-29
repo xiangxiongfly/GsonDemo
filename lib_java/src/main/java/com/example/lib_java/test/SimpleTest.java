@@ -36,26 +36,26 @@ public class SimpleTest {
         System.out.println("结果：\n" + person);
         System.out.println("=================");
 
-        System.out.println("都为null情况：");
-        String json2 = getJson("./person_error1.json");
-        System.out.println("json: \n" + json2);
-        Person person2 = gson.fromJson(json2, Person.class);
-        System.out.println("结果：\n" + person2);
-        System.out.println("=================");
-
-        System.out.println("都为\"\"情况：");
-        String json3 = getJson("./person_error2.json");
-        System.out.println("json: \n" + json3);
-        Person person3 = gson.fromJson(json3, Person.class);
-        System.out.println("结果：\n" + person3);
-        System.out.println("=================");
-
-        System.out.println("其他情况：");
-        String json4 = getJson("./person_error3.json");
-        System.out.println("json: \n" + json4);
-        Person person4 = gson.fromJson(json4, Person.class);
-        System.out.println("结果：\n" + person4);
-        System.out.println("=================");
+//        System.out.println("都为null情况：");
+//        String json2 = getJson("./person_error1.json");
+//        System.out.println("json: \n" + json2);
+//        Person person2 = gson.fromJson(json2, Person.class);
+//        System.out.println("结果：\n" + person2);
+//        System.out.println("=================");
+//
+//        System.out.println("都为\"\"情况：");
+//        String json3 = getJson("./person_error2.json");
+//        System.out.println("json: \n" + json3);
+//        Person person3 = gson.fromJson(json3, Person.class);
+//        System.out.println("结果：\n" + person3);
+//        System.out.println("=================");
+//
+//        System.out.println("其他情况：");
+//        String json4 = getJson("./person_error3.json");
+//        System.out.println("json: \n" + json4);
+//        Person person4 = gson.fromJson(json4, Person.class);
+//        System.out.println("结果：\n" + person4);
+//        System.out.println("=================");
     }
 
     public static String getJson(String path) {
