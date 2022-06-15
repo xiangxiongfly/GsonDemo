@@ -21,6 +21,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
+/**
+ * 复杂JSON容错
+ */
 public class OtherTest {
     public static void main(String[] args) {
         Gson gson = new GsonBuilder()
@@ -59,6 +62,14 @@ public class OtherTest {
 //        System.out.println("输出：\n" + result3);
 //        System.out.println("=================================");
 
+//        System.out.println("data为null：");
+//        String json3 = getJson("./user_null.json");
+//        System.out.println("json:\n" + json3);
+//        BaseResult<String> result3 = gson.fromJson(json3, new TypeToken<BaseResult<Double>>() {
+//        }.getType());
+//        System.out.println("输出：\n" + result3);
+//        System.out.println("=================================");
+
 //        //JSON Object类型
 //        System.out.println("data为正确的JSONObject");
 //        String json = getJson("./user_object.json");
@@ -77,13 +88,13 @@ public class OtherTest {
 //        System.out.println("=================================");
 
         //JSON Array类型
-        System.out.println("data为正确的JSONArray");
-        String json = getJson("./user_array.json");
-        System.out.println("json:\n" + json);
-        BaseResult<ArrayList<User>> result = gson.fromJson(json, new TypeToken<BaseResult<ArrayList<User>>>() {
-        }.getType());
-        System.out.println("输出：\n" + result);
-        System.out.println("=================================");
+//        System.out.println("data为正确的JSONArray");
+//        String json = getJson("./user_array.json");
+//        System.out.println("json:\n" + json);
+//        BaseResult<ArrayList<User>> result = gson.fromJson(json, new TypeToken<BaseResult<ArrayList<User>>>() {
+//        }.getType());
+//        System.out.println("输出：\n" + result);
+//        System.out.println("=================================");
 
 //        System.out.println("data为错误的JSONArray");
 //        String json2 = getJson("./user_array_error.json");
