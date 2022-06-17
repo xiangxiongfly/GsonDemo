@@ -9,17 +9,14 @@ import com.example.lib_java.adapter.IntegerTypeAdapter;
 import com.example.lib_java.adapter.LongTypeAdapter;
 import com.example.lib_java.adapter.StringTypeAdapter;
 import com.example.lib_java.bean.BaseResult;
-import com.example.lib_java.bean.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.internal.bind.TypeAdapters;
-import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 
 /**
  * 复杂JSON容错
